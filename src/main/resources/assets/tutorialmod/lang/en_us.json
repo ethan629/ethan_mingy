@@ -17,5 +17,11 @@
   "item.tutorialmod.topaz_sword": "Topaz Sword",
   "item.tutorialmod.tourmaline_sword": "Tourmaline Sword",
 
-  "itemGroup.tutorialmod.mod": "Mingy Mod"
+  "item.tutorialmod.garnet_axe": "Garnet Axe",
+  "item.tutorialmod.rainbow_opal_axe": "Rainbow Opal Axe",
+  "item.tutorialmod.sapphire_axe": "Sapphire Axe",
+  "item.tutorialmod.topaz_axe": "Topaz Axe",
+  "item.tutorialmod.tourmaline_axe": "Tourmaline Axe",
+
+  "itemGroup.tutorialmod.mod": "Mod"
 }

@@ -1,6 +1,7 @@
 package net.ethan.tutorialmod.item;
 
 import net.ethan.tutorialmod.TutorialMod;
+import net.ethan.tutorialmod.item.custom.ModAxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
@@ -62,6 +63,29 @@ public class ModItems {
     public static final Item TOURMALINE_SWORD = registerItem("tourmaline_sword",
             new SwordItem(ModToolMaterials.TOURMALINE, 2, 2f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
+
+
+    // axes
+    public static final Item GARNET_AXE = registerItem("garnet_axe",
+            new ModAxeItem(ModToolMaterials.GARNET, 4f, 0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_AXE = registerItem("rainbow_opal_axe",
+            new ModAxeItem(ModToolMaterials.RAINBOW_OPAL, 4f, 0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
+            new ModAxeItem(ModToolMaterials.SAPPHIRE, 4f, 0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_AXE = registerItem("topaz_axe",
+            new ModAxeItem(ModToolMaterials.TOPAZ, 4f, 0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_AXE = registerItem("tourmaline_axe",
+            new ModAxeItem(ModToolMaterials.TOURMALINE, 4f, 0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

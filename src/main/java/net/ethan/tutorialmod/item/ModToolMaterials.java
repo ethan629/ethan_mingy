@@ -8,11 +8,11 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    GARNET(MiningLevels.NETHERITE, 4094, 9.0f, 4.0f, 24, () -> Ingredient.ofItems(ModItems.GARNET)),
-    RAINBOW_OPAL(MiningLevels.NETHERITE, 10831, 12.0f, 7.0f, 24, () -> Ingredient.ofItems(ModItems.RAINBOW_OPAL)),
-    SAPPHIRE(MiningLevels.NETHERITE, 3927, 7.0f, 5.0f, 24, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
-    TOPAZ(MiningLevels.NETHERITE, 1561, 8.0f, 6.0f, 24, () -> Ingredient.ofItems(ModItems.TOPAZ)),
-    TOURMALINE(MiningLevels.NETHERITE, 5300, 10.0f, 3.0f, 24, () -> Ingredient.ofItems(ModItems.TOURMALINE)),;
+    GARNET(MiningLevels.NETHERITE, 4094, 9.0f, 4.0f, 48, () -> Ingredient.ofItems(ModItems.GARNET)),
+    RAINBOW_OPAL(MiningLevels.NETHERITE, 10831, 13.0f, 8.0f, 75, () -> Ingredient.ofItems(ModItems.RAINBOW_OPAL)),
+    SAPPHIRE(MiningLevels.NETHERITE, 3927, 7.0f, 5.0f, 48, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    TOPAZ(MiningLevels.NETHERITE, 6225, 8.0f, 6.0f, 48, () -> Ingredient.ofItems(ModItems.TOPAZ)),
+    TOURMALINE(MiningLevels.NETHERITE, 5301, 10.0f, 3.0f, 48, () -> Ingredient.ofItems(ModItems.TOURMALINE)),;
 
     private final int miningLevel;
     private final int itemDurability;
