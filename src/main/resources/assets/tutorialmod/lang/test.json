@@ -4,18 +4,9 @@
   "item.tutorialmod.sapphire": "Sapphire",
   "item.tutorialmod.topaz": "Topaz",
   "item.tutorialmod.tourmaline": "Tourmaline",
-
-  "item.tutorialmod.garnet_carrot": "Garnet Carrot",
-  "item.tutorialmod.rainbow_opal_carrot": "Rainbow Opal Carrot",
-  "item.tutorialmod.sapphire_carrot": "Sapphire Carrot",
-  "item.tutorialmod.topaz_carrot": "Topaz Carrot",
-  "item.tutorialmod.tourmaline_carrot": "Tourmaline Carrot",
-
   "item.tutorialmod.garnet_sword": "Garnet Sword",
   "item.tutorialmod.rainbow_opal_sword": "Rainbow Opal Sword",
   "item.tutorialmod.sapphire_sword": "Sapphire Sword",
   "item.tutorialmod.topaz_sword": "Topaz Sword",
-  "item.tutorialmod.tourmaline_sword": "Tourmaline Sword",
-
-  "itemGroup.tutorialmod.mod": "Mingy Mod"
+  "item.tutorialmod.tourmaline_sword": "Tourmaline Sword"
 }
