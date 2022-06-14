@@ -2,8 +2,12 @@ package net.ethan.tutorialmod.item;
 
 import net.ethan.tutorialmod.TutorialMod;
 import net.ethan.tutorialmod.item.custom.ModAxeItem;
+import net.ethan.tutorialmod.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -86,6 +90,74 @@ public class ModItems {
             new ModAxeItem(ModToolMaterials.TOURMALINE, 4f, 0.5f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
+
+    // pickaxes
+    public static final Item GARNET_PICKAXE = registerItem("garnet_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.GARNET, 1, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_PICKAXE = registerItem("rainbow_opal_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.RAINBOW_OPAL, 1, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.SAPPHIRE, 1, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_PICKAXE = registerItem("topaz_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.TOPAZ, 1, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_PICKAXE = registerItem("tourmaline_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.TOURMALINE, 1, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    // shovels
+    public static final Item GARNET_SHOVEL = registerItem("garnet_shovel",
+            new ShovelItem(ModToolMaterials.GARNET, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_SHOVEL = registerItem("rainbow_opal_shovel",
+            new ShovelItem(ModToolMaterials.RAINBOW_OPAL, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
+            new ShovelItem(ModToolMaterials.SAPPHIRE, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_SHOVEL = registerItem("topaz_shovel",
+            new ShovelItem(ModToolMaterials.TOPAZ, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_SHOVEL = registerItem("tourmaline_shovel",
+            new ShovelItem(ModToolMaterials.TOURMALINE, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    // hoes
+    public static final Item GARNET_HOE = registerItem("garnet_hoe",
+            new ShovelItem(ModToolMaterials.GARNET, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_HOE = registerItem("rainbow_opal_hoe",
+            new ShovelItem(ModToolMaterials.RAINBOW_OPAL, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
+            new ShovelItem(ModToolMaterials.SAPPHIRE, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_HOE = registerItem("topaz_hoe",
+            new ShovelItem(ModToolMaterials.TOPAZ, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_HOE = registerItem("tourmaline_hoe",
+            new ShovelItem(ModToolMaterials.TOURMALINE, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    // armor
+    public static final Item GARNET_HELMET = registerItem("garnet_helmet",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

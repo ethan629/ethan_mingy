@@ -23,5 +23,23 @@
   "item.tutorialmod.topaz_axe": "Topaz Axe",
   "item.tutorialmod.tourmaline_axe": "Tourmaline Axe",
 
+  "item.tutorialmod.garnet_pickaxe": "Garnet Pickaxe",
+  "item.tutorialmod.rainbow_opal_pickaxe": "Rainbow Opal Pickaxe",
+  "item.tutorialmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.tutorialmod.topaz_pickaxe": "Topaz Pickaxe",
+  "item.tutorialmod.tourmaline_pickaxe": "Tourmaline Pickaxe",
+
+  "item.tutorialmod.garnet_shovel": "Garnet Shovel",
+  "item.tutorialmod.rainbow_opal_shovel": "Rainbow Opal Shovel",
+  "item.tutorialmod.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorialmod.topaz_shovel": "Topaz Shovel",
+  "item.tutorialmod.tourmaline_shovel": "Tourmaline Shovel",
+
+  "item.tutorialmod.garnet_hoe": "Garnet Hoe",
+  "item.tutorialmod.rainbow_opal_hoe": "Rainbow Opal Hoe",
+  "item.tutorialmod.sapphire_hoe": "Sapphire Hoe",
+  "item.tutorialmod.topaz_hoe": "Topaz Hoe",
+  "item.tutorialmod.tourmaline_hoe": "Tourmaline Hoe",
+
   "itemGroup.tutorialmod.mod": "Mod"
 }
