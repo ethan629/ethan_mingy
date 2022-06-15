@@ -41,5 +41,29 @@
   "item.tutorialmod.topaz_hoe": "Topaz Hoe",
   "item.tutorialmod.tourmaline_hoe": "Tourmaline Hoe",
 
+  "item.tutorialmod.garnet_helmet": "Garnet Helmet",
+  "item.tutorialmod.rainbow_opal_helmet": "Rainbow Opal Helmet",
+  "item.tutorialmod.sapphire_helmet": "Sapphire Helmet",
+  "item.tutorialmod.topaz_helmet": "Topaz Helmet",
+  "item.tutorialmod.tourmaline_helmet": "Tourmaline Helmet",
+
+  "item.tutorialmod.garnet_chestplate": "Garnet Chestplate",
+  "item.tutorialmod.rainbow_opal_chestplate": "Rainbow Opal Chestplate",
+  "item.tutorialmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.tutorialmod.topaz_chestplate": "Topaz Chestplate",
+  "item.tutorialmod.tourmaline_chestplate": "Tourmaline Chestplate",
+
+  "item.tutorialmod.garnet_leggings": "Garnet Leggings",
+  "item.tutorialmod.rainbow_opal_leggings": "Rainbow Opal Leggings",
+  "item.tutorialmod.sapphire_leggings": "Sapphire Leggings",
+  "item.tutorialmod.topaz_leggings": "Topaz Leggings",
+  "item.tutorialmod.tourmaline_leggings": "Tourmaline Leggings",
+
+  "item.tutorialmod.garnet_boots": "Garnet Boots",
+  "item.tutorialmod.rainbow_opal_boots": "Rainbow Opal Boots",
+  "item.tutorialmod.sapphire_boots": "Sapphire Boots",
+  "item.tutorialmod.topaz_boots": "Topaz Boots",
+  "item.tutorialmod.tourmaline_boots": "Tourmaline Boots",
+
   "itemGroup.tutorialmod.mod": "Mod"
 }

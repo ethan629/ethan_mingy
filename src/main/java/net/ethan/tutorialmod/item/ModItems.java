@@ -154,10 +154,49 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.TOURMALINE, 0.5f, 1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
-    // armor
+    // helmets
     public static final Item GARNET_HELMET = registerItem("garnet_helmet",
             new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_HELMET = registerItem("rainbow_opal_helmet",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_HELMET = registerItem("topaz_helmet",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_HELMET = registerItem("tourmaline_helmet",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+
+    // chestplates
+    public static final Item GARNET_CHESTPLATE = registerItem("garnet_chestplate",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_CHESTPLATE = registerItem("rainbow_opal_chestplate",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_CHESTPLATE = registerItem("topaz_chestplate",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_CHESTPLATE = registerItem("tourmaline_chestplate",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

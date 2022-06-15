@@ -1,5 +1,19 @@
- "item.tutorialmod.garnet_hoe": "Garnet Hoe",
-  "item.tutorialmod.rainbow_opal_hoe": "Rainbow Opal Hoe",
-  "item.tutorialmod.sapphire_hoe": "Sapphire Hoe",
-  "item.tutorialmod.topaz_hoe": "Topaz Hoe",
-  "item.tutorialmod.tourmaline_hoe": "Tourmaline Hoe",
+public static final Item GARNET_CHESTPLSATE = registerItem("garnet_chestplate",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_CHESTPLSATE = registerItem("rainbow_opal_chestplate",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_CHESTPLSATE = registerItem("sapphire_chestplate",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_CHESTPLSATE = registerItem("topaz_chestplate",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_CHESTPLSATE = registerItem("tourmaline_chestplate",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
