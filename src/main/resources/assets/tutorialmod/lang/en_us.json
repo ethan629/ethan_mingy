@@ -65,5 +65,11 @@
   "item.tutorialmod.topaz_boots": "Topaz Boots",
   "item.tutorialmod.tourmaline_boots": "Tourmaline Boots",
 
+  "item.tutorialmod.garnet_shield": "Garnet Shield",
+  "item.tutorialmod.rainbow_opal_shield": "Rainbow Opal Shield",
+  "item.tutorialmod.sapphire_shield": "Sapphire Shield",
+  "item.tutorialmod.topaz_shield": "Topaz Shield",
+  "item.tutorialmod.tourmaline_shield": "Tourmaline Shield",
+
   "itemGroup.tutorialmod.mod": "Mod"
 }

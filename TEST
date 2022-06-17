@@ -1,19 +1,19 @@
-public static final Item GARNET_CHESTPLSATE = registerItem("garnet_chestplate",
-            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.HEAD,
+public static final Item GARNET_BOOTS = registerItem("garnet_boots",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
-    public static final Item RAINBOW_OPAL_CHESTPLSATE = registerItem("rainbow_opal_chestplate",
-            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.HEAD,
+    public static final Item RAINBOW_OPAL_BOOTS = registerItem("rainbow_opal_boots",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
-    public static final Item SAPPHIRE_CHESTPLSATE = registerItem("sapphire_chestplate",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD,
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
-    public static final Item TOPAZ_CHESTPLSATE = registerItem("topaz_chestplate",
-            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.HEAD,
+    public static final Item TOPAZ_BOOTS = registerItem("topaz_boots",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
-    public static final Item TOURMALINE_CHESTPLSATE = registerItem("tourmaline_chestplate",
-            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.HEAD,
+    public static final Item TOURMALINE_BOOTS = registerItem("tourmaline_boots",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));

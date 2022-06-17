@@ -1,14 +1,12 @@
 package net.ethan.tutorialmod.item;
 
+
 import net.ethan.tutorialmod.TutorialMod;
 import net.ethan.tutorialmod.item.custom.ModAxeItem;
 import net.ethan.tutorialmod.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -45,6 +43,28 @@ public class ModItems {
 
     public static final Item TOURMALINE_CARROT = registerItem("tourmaline_carrot",
             new Item(new FabricItemSettings().group(ModItemGroup.MOD).food(ModFoodComponents.TOURMALINE_CARROT)));
+
+
+    // shields
+    //public static final Item GARNET_SHIELD = registerItem("garnet_shield",
+    //        new FabricShieldItem(new FabricItemSettings().maxDamage(4094).group(ModItemGroup.MOD), 10, 48,
+    //                ModItems.GARNET));
+
+    //public static final Item RAINBOW_OPAL_SHIELD = registerItem("rainbow_opal_shield",
+    //        new FabricShieldItem(new FabricItemSettings().maxDamage(10831).group(ModItemGroup.MOD), 10, 75,
+    //                ModItems.RAINBOW_OPAL));
+
+    //public static final Item SAPPHIRE_SHIELD = registerItem("sapphire_shield",
+    //        new FabricShieldItem(new FabricItemSettings().maxDamage(3927).group(ModItemGroup.MOD), 10, 48,
+    //                ModItems.SAPPHIRE));
+
+    //public static final Item TOPAZ_SHIELD = registerItem("topaz_shield",
+    //        new FabricShieldItem(new FabricItemSettings().maxDamage(6225).group(ModItemGroup.MOD), 10, 48,
+    //                ModItems.TOPAZ));
+
+    //public static final Item TOURMALINE_SHIELD = registerItem("tourmaline_shield",
+    //        new FabricShieldItem(new FabricItemSettings().maxDamage(5031).group(ModItemGroup.MOD), 10, 48,
+    //                ModItems.TOURMALINE));
 
 
     // swords
@@ -195,6 +215,50 @@ public class ModItems {
 
     public static final Item TOURMALINE_CHESTPLATE = registerItem("tourmaline_chestplate",
             new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+
+    // leggings
+    public static final Item GARNET_LEGGINGS = registerItem("garnet_leggings",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_LEGGINGS = registerItem("rainbow_opal_leggings",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_LEGGINGS = registerItem("topaz_leggings",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_LEGGINGS = registerItem("tourmaline_leggings",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+
+    // boots
+    public static final Item GARNET_BOOTS = registerItem("garnet_boots",
+            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_BOOTS = registerItem("rainbow_opal_boots",
+            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_BOOTS = registerItem("topaz_boots",
+            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_BOOTS = registerItem("tourmaline_boots",
+            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
 
