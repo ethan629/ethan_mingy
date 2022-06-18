@@ -45,28 +45,6 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MOD).food(ModFoodComponents.TOURMALINE_CARROT)));
 
 
-    // shields
-    //public static final Item GARNET_SHIELD = registerItem("garnet_shield",
-    //        new FabricShieldItem(new FabricItemSettings().maxDamage(4094).group(ModItemGroup.MOD), 10, 48,
-    //                ModItems.GARNET));
-
-    //public static final Item RAINBOW_OPAL_SHIELD = registerItem("rainbow_opal_shield",
-    //        new FabricShieldItem(new FabricItemSettings().maxDamage(10831).group(ModItemGroup.MOD), 10, 75,
-    //                ModItems.RAINBOW_OPAL));
-
-    //public static final Item SAPPHIRE_SHIELD = registerItem("sapphire_shield",
-    //        new FabricShieldItem(new FabricItemSettings().maxDamage(3927).group(ModItemGroup.MOD), 10, 48,
-    //                ModItems.SAPPHIRE));
-
-    //public static final Item TOPAZ_SHIELD = registerItem("topaz_shield",
-    //        new FabricShieldItem(new FabricItemSettings().maxDamage(6225).group(ModItemGroup.MOD), 10, 48,
-    //                ModItems.TOPAZ));
-
-    //public static final Item TOURMALINE_SHIELD = registerItem("tourmaline_shield",
-    //        new FabricShieldItem(new FabricItemSettings().maxDamage(5031).group(ModItemGroup.MOD), 10, 48,
-    //                ModItems.TOURMALINE));
-
-
     // swords
     public static final Item GARNET_SWORD = registerItem("garnet_sword",
             new SwordItem(ModToolMaterials.GARNET, 2, 2f,
@@ -131,6 +109,7 @@ public class ModItems {
     public static final Item TOURMALINE_PICKAXE = registerItem("tourmaline_pickaxe",
             new ModPickaxeItem(ModToolMaterials.TOURMALINE, 1, 1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
+
 
     // shovels
     public static final Item GARNET_SHOVEL = registerItem("garnet_shovel",
