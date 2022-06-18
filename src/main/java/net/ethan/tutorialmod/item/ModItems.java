@@ -246,7 +246,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
+        TutorialMod.LOGGER.info("Registering mod items for " + TutorialMod.MOD_ID);
     }
 
 

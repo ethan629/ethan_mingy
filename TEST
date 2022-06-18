@@ -1,19 +1,5 @@
-public static final Item GARNET_BOOTS = registerItem("garnet_boots",
-            new ArmorItem(ModArmorMaterials.GARNET, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.MOD)));
-
-    public static final Item RAINBOW_OPAL_BOOTS = registerItem("rainbow_opal_boots",
-            new ArmorItem(ModArmorMaterials.RAINBOW_OPAL, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.MOD)));
-
-    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
-            new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.MOD)));
-
-    public static final Item TOPAZ_BOOTS = registerItem("topaz_boots",
-            new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.MOD)));
-
-    public static final Item TOURMALINE_BOOTS = registerItem("tourmaline_boots",
-            new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.FEET,
-                    new FabricItemSettings().group(ModItemGroup.MOD)));
+ "item.tutorialmod.garnet_shield": "Garnet Shield",
+  "item.tutorialmod.rainbow_opal_shield": "Rainbow Opal Shield",
+  "item.tutorialmod.sapphire_shield": "Sapphire Shield",
+  "item.tutorialmod.topaz_shield": "Topaz Shield",
+  "item.tutorialmod.tourmaline_shield": "Tourmaline Shield",

@@ -65,11 +65,11 @@
   "item.tutorialmod.topaz_boots": "Topaz Boots",
   "item.tutorialmod.tourmaline_boots": "Tourmaline Boots",
 
-  "item.tutorialmod.garnet_shield": "Garnet Shield",
-  "item.tutorialmod.rainbow_opal_shield": "Rainbow Opal Shield",
-  "item.tutorialmod.sapphire_shield": "Sapphire Shield",
-  "item.tutorialmod.topaz_shield": "Topaz Shield",
-  "item.tutorialmod.tourmaline_shield": "Tourmaline Shield",
+  "block.tutorialmod.garnet_block": "Garnet Block",
+  "block.tutorialmod.rainbow_opal_block": "Rainbow Opal Block",
+  "block.tutorialmod.sapphire_block": "Sapphire Block",
+  "block.tutorialmod.topaz_block": "Topaz Block",
+  "block.tutorialmod.tourmaline_block": "Tourmaline Block",
 
   "itemGroup.tutorialmod.mod": "Mod"
 }

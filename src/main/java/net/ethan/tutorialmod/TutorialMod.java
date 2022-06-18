@@ -1,6 +1,7 @@
 package net.ethan.tutorialmod;
 
 import net.ethan.tutorialmod.item.ModItems;
+import net.ethan.tutorialmod.item.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,6 +12,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 	}
 }
