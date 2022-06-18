@@ -3,7 +3,9 @@ package net.ethan.tutorialmod.item;
 
 import net.ethan.tutorialmod.TutorialMod;
 import net.ethan.tutorialmod.item.custom.ModAxeItem;
+import net.ethan.tutorialmod.item.custom.ModMusicDiscItem;
 import net.ethan.tutorialmod.item.custom.ModPickaxeItem;
+import net.ethan.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -239,6 +241,12 @@ public class ModItems {
     public static final Item TOURMALINE_BOOTS = registerItem("tourmaline_boots",
             new ArmorItem(ModArmorMaterials.TOURMALINE, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
+
+
+    // misc
+    private static final Item CRIMINAL_MUSIC_DISC = registerItem("criminal_music_disc",
+            new ModMusicDiscItem(7, ModSounds.CRIMINAL,
+                    new FabricItemSettings().group(ModItemGroup.MOD).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {

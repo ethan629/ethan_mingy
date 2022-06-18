@@ -18,7 +18,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().luminance(2)), ModItemGroup.MOD);
 
     public static final Block RAINBOW_OPAL_BLOCK = registerBlock("rainbow_opal_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool().luminance(5)), ModItemGroup.MOD);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool().luminance(4)), ModItemGroup.MOD);
 
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().luminance(2)), ModItemGroup.MOD);

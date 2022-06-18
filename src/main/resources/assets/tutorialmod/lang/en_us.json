@@ -71,5 +71,8 @@
   "block.tutorialmod.topaz_block": "Topaz Block",
   "block.tutorialmod.tourmaline_block": "Tourmaline Block",
 
+  "item.tutorialmod.criminal_music_disc": "Criminal Music Disc",
+  "item.tutorialmod.criminal_music_disc.desc": "Mama I'm a Criminal",
+
   "itemGroup.tutorialmod.mod": "Mod"
 }
