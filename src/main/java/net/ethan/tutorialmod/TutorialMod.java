@@ -1,5 +1,6 @@
 package net.ethan.tutorialmod;
 
+import net.ethan.tutorialmod.enchantment.ModEnchantments;
 import net.ethan.tutorialmod.item.ModItems;
 import net.ethan.tutorialmod.item.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModEnchantments.registerModEnchantments();
 	}
 }
