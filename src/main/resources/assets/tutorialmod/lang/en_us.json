@@ -76,6 +76,12 @@
 
   "enchantment.tutorialmod.lightning": "Lightning",
   "enchantment.tutorialmod.experience": "Experience",
+  "enchantment.tutorialmod.freezing": "Freezing",
+  "enchantment.tutorialmod.weakening": "Weakening",
+  "enchantment.tutorialmod.razor": "Razor",
+  "enchantment.tutorialmod.venomous": "Venomous",
+  "enchantment.tutorialmod.withering": "Withering",
+  "enchantment.tutorialmod.luminous": "Luminous",
 
   "itemGroup.tutorialmod.mod": "Mod"
 }

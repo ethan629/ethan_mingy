@@ -14,31 +14,38 @@ public class LightningEnchantment extends Enchantment {
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(!user.world.isClient) {
-            ServerWorld world = (ServerWorld)user.world;
-            BlockPos position = target.getBlockPos();
+            if(target instanceof LivingEntity) {
+                ServerWorld world = (ServerWorld)user.world;
+                BlockPos position = target.getBlockPos();
 
-            if(level == 1) {
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
+                if(level == 1) {
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
+                }
+
+                if(level == 2) {
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
+                }
+
+                if(level == 3) {
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
+                    EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
+                            true, true);
             }
-
-            if(level == 2) {
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
-            }
-
-            if(level == 3) {
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
-                EntityType.LIGHTNING_BOLT.spawn(world, null, null, null, position, SpawnReason.TRIGGERED,
-                        true, true);
             }
         }
         super.onTargetDamaged(user, target, level);
+    }
+
+    @Override
+    public int getMinPower(int level) {
+        return 1;
     }
 
     @Override
