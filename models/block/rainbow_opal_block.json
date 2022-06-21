@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tutorialmod:block/rainbow_opal_block"
+  }
+}
