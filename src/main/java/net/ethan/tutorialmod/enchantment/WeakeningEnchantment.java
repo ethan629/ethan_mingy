@@ -18,15 +18,15 @@ public class WeakeningEnchantment extends Enchantment {
         if(target instanceof LivingEntity) {
             if(level == 1) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,
-                        60, 1));
+                        60, 0));
             }
             if(level == 2) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,
-                        100, 1));
+                        100, 0));
             }
             if(level == 3) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,
-                        160, 1));
+                        160, 0));
             }
         }
         super.onTargetDamaged(user, target, level);

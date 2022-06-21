@@ -17,7 +17,7 @@ public class LuminousEnchantment extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(target instanceof LivingEntity) {
             ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING,
-                        100, 1));
+                        100, 0));
 
         }
         super.onTargetDamaged(user, target, level);

@@ -32,6 +32,9 @@ public class ModEnchantments {
     public static Enchantment WITHERING = register("luminous",
             new LuminousEnchantment(Enchantment.Rarity.RARE, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
+    public static Enchantment ADRENALINE = register("adrenaline",
+            new AdrenalineEnchantment(Enchantment.Rarity.RARE, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET));
+
 
 
     public static Enchantment register(String name, Enchantment enchantment) {

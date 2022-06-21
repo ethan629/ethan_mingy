@@ -18,11 +18,11 @@ public class RazorEnchantment extends Enchantment {
         if(target instanceof LivingEntity) {
             if(level == 1) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE,
-                        20, 1));
+                        20, 0));
             }
             if(level == 2) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE,
-                        20, 2));
+                        20, 1));
             }
 
         }

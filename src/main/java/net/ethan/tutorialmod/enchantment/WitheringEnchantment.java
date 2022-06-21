@@ -17,7 +17,7 @@ public class WitheringEnchantment extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(target instanceof LivingEntity) {
             ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER,
-                        60, 1));
+                        60, 0));
 
         }
         super.onTargetDamaged(user, target, level);

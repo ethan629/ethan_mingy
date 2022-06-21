@@ -18,11 +18,11 @@ public class VenomousEnchantment extends Enchantment {
         if(target instanceof LivingEntity) {
             if(level == 1) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON,
-                        60, 1));
+                        60, 0));
             }
             if(level == 2) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON,
-                        100, 2));
+                        100, 1));
             }
 
         }

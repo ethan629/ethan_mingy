@@ -18,11 +18,11 @@ public class FreezingEnchantment extends Enchantment {
         if(target instanceof LivingEntity) {
             if(level == 1) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,
-                        60, 1));
+                        60, 0));
             }
             if(level == 2) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,
-                        100, 1));
+                        100, 0));
             }
             if(level == 3) {
                 ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,
