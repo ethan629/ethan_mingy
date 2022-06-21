@@ -1,0 +1,475 @@
+[10:26:36] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.14.7
+[10:26:36] [main/INFO] (FabricLoader) Loading 51 mods:
+	- fabric 0.55.1+1.18.2
+	- fabric-api-base 0.4.4+d7c144a860
+	- fabric-api-lookup-api-v1 1.6.1+2373a54560
+	- fabric-biome-api-v1 8.0.4+7b0f312660
+	- fabric-blockrenderlayer-v1 1.1.12+3ac43d9560
+	- fabric-command-api-v1 1.1.9+d7c144a860
+	- fabric-commands-v0 0.2.8+b4f4f6cd60
+	- fabric-containers-v0 0.1.22+d7c144a860
+	- fabric-content-registries-v0 3.0.6+d82b939260
+	- fabric-convention-tags-v1 1.0.1+474e4f7960
+	- fabric-crash-report-info-v1 0.2.1+ee261a3e60
+	- fabric-data-generation-api-v1 3.0.0+9fcb91d260
+	- fabric-dimensions-v1 2.1.19+ffb2c71e60
+	- fabric-entity-events-v1 1.4.8+d7c144a860
+	- fabric-events-interaction-v0 0.4.19+d7c144a860
+	- fabric-events-lifecycle-v0 0.2.17+d7c144a860
+	- fabric-game-rule-api-v1 1.0.13+d7c144a860
+	- fabric-gametest-api-v1 1.0.18+91b7aa6660
+	- fabric-item-api-v1 1.5.1+6c4e5d0960
+	- fabric-item-groups-v0 0.3.13+91896a4960
+	- fabric-key-binding-api-v1 1.0.12+54e5b2ec60
+	- fabric-keybindings-v0 0.2.10+b4f4f6cd60
+	- fabric-lifecycle-events-v1 2.0.4+d8d7804a60
+	- fabric-loot-api-v2 1.0.0+e747827960
+	- fabric-loot-tables-v1 1.1.0+e747827960
+	- fabric-mining-level-api-v1 2.1.2+81ea5b3c60
+	- fabric-models-v0 0.3.6+d7c144a860
+	- fabric-networking-api-v1 1.0.22+e6b169eb60
+	- fabric-networking-v0 0.3.9+b4f4f6cd60
+	- fabric-object-builder-api-v1 2.1.2+032c981d60
+	- fabric-particles-v1 0.2.12+526dc1ac60
+	- fabric-registry-sync-v0 0.9.9+0d9ab37260
+	- fabric-renderer-api-v1 0.4.13+d882b91560
+	- fabric-renderer-indigo 0.5.0+7faf0d8860
+	- fabric-renderer-registries-v1 3.2.11+b4f4f6cd60
+	- fabric-rendering-data-attachment-v1 0.3.7+d7c144a860
+	- fabric-rendering-fluids-v1 2.0.2+54e5b2ec60
+	- fabric-rendering-v0 1.1.13+b4f4f6cd60
+	- fabric-rendering-v1 1.10.7+54e5b2ec60
+	- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660
+	- fabric-resource-loader-v0 0.5.1+e747827960
+	- fabric-screen-api-v1 1.0.10+d882b91560
+	- fabric-screen-handler-api-v1 1.2.1+1f6558e860
+	- fabric-textures-v0 1.0.12+3ac43d9560
+	- fabric-transfer-api-v1 1.6.2+f4563ac860
+	- fabric-transitive-access-wideners-v1 1.1.0+e747827960
+	- fabricloader 0.14.7
+	- geckolib3 3.0.45
+	- java 17
+	- minecraft 1.18.2
+	- tutorialmod 0.0.1
+[10:26:36] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/minghui/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[10:26:37] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[10:26:37] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[10:26:39] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[10:26:39] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[10:26:53] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:26:55] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.3.39.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:680) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:424) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.3.39.jar:?]
+	... 9 more
+[10:26:55] [Render thread/INFO] (Minecraft) Setting user: Player567
+[10:26:56] [Render thread/INFO] (tutorialmod) Registering mod blocks for tutorialmod
+[10:26:56] [Render thread/INFO] (tutorialmod) Registering mod items for tutorialmod
+[10:26:56] [Render thread/INFO] (Minecraft) [STDOUT]: Registering enchantments for tutorialmod
+[10:26:56] [Render thread/ERROR] (Minecraft) No data fixer registered for geoexampleentity
+[10:26:56] [Render thread/ERROR] (Minecraft) No data fixer registered for bikeentity
+[10:26:56] [Render thread/ERROR] (Minecraft) No data fixer registered for extendedrendererentity
+[10:26:56] [Render thread/ERROR] (Minecraft) No data fixer registered for leentity
+[10:26:56] [Render thread/ERROR] (Minecraft) No data fixer registered for rocketprojectile
+[10:26:59] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[10:27:00] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.1 build 12
+[10:27:06] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Tutorial Mod, Fabric Renderer Registries (v1), Fabric Containers (v0), Fabric Networking (v0), Fabric Dimensions API (v1), Fabric Loot API (v2), Fabric Data Generation API (v1), Fabric Screen API (v1), Fabric Key Bindings (v0), Fabric Object Builder API (v1), Fabric Lifecycle Events (v1), Fabric Loader, Fabric Events Interaction (v0), Fabric Mining Level API (v1), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Biome API (v1), Fabric Item Groups (v0), Fabric Networking API (v1), Fabric Commands (v0), Fabric Rendering Data Attachment (v1), Fabric Game Test API (v1), Fabric Game Rule API (v1), Fabric Screen Handler API (v1), Geckolib, Fabric Command API (v1), Fabric Convention Tags, Fabric Rendering (v1), Fabric Content Registries (v0), Fabric Entity Events (v1), Fabric API Base, Fabric Resource Conditions API (v1), Fabric Renderer - Indigo, Fabric API Lookup API (v1), Fabric Registry Sync (v0), Fabric Particles (v1), Fabric Rendering (v0), Fabric Crash Report Info (v1), Fabric Models (v0), Fabric Renderer API (v1), Fabric Textures (v0), Fabric API, Fabric BlockRenderLayer Registration (v1), Fabric Key Binding API (v1), Fabric Events Lifecycle (v0), Fabric Rendering Fluids (v1), Fabric Item API (v1), Fabric Loot Tables (v1), Fabric Resource Loader (v0))
+[10:27:06] [Render thread/INFO] (tutorialmod) This line is printed by an example mod mixin!
+[10:27:07] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[10:27:16] [Render thread/INFO] (Minecraft) OpenAL initialized on device CoreAudio Default
+[10:27:16] [Render thread/INFO] (Minecraft) Sound engine started
+[10:27:16] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10:27:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10:27:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10:27:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10:27:19] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10:27:19] [Render thread/INFO] (tutorialmod) This line is printed by an example mod mixin!
+[10:27:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:27:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:27:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:27:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:27:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:27:42] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tutorialmod:garnet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tutorialmod:crafting_shapeless'
+	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:54) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createSaveLoader(MinecraftClient.java:2123) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.startIntegratedServer(MinecraftClient.java:1972) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createWorld(MinecraftClient.java:1941) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.createLevel(CreateWorldScreen.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.method_19922(CreateWorldScreen.java:230) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:40) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:16) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:121) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:492) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) [lwjgl-glfw-3.2.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:310) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1147) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:737) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[10:27:42] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tutorialmod:sapphire
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tutorialmod:crafting_shapeless'
+	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:54) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createSaveLoader(MinecraftClient.java:2123) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.startIntegratedServer(MinecraftClient.java:1972) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createWorld(MinecraftClient.java:1941) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.createLevel(CreateWorldScreen.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.method_19922(CreateWorldScreen.java:230) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:40) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:16) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:121) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:492) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) [lwjgl-glfw-3.2.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:310) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1147) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:737) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[10:27:42] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tutorialmod:topaz
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tutorialmod:crafting_shapeless'
+	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:54) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createSaveLoader(MinecraftClient.java:2123) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.startIntegratedServer(MinecraftClient.java:1972) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createWorld(MinecraftClient.java:1941) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.createLevel(CreateWorldScreen.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.method_19922(CreateWorldScreen.java:230) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:40) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:16) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:121) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:492) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) [lwjgl-glfw-3.2.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:310) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1147) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:737) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[10:27:42] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tutorialmod:rainbow_opal
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tutorialmod:crafting_shapeless'
+	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:54) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createSaveLoader(MinecraftClient.java:2123) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.startIntegratedServer(MinecraftClient.java:1972) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createWorld(MinecraftClient.java:1941) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.createLevel(CreateWorldScreen.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.method_19922(CreateWorldScreen.java:230) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:40) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:16) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:121) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:492) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) [lwjgl-glfw-3.2.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:310) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1147) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:737) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[10:27:42] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tutorialmod:tourmaline
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tutorialmod:crafting_shapeless'
+	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:124) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:54) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:13) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:131) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:140) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createSaveLoader(MinecraftClient.java:2123) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.startIntegratedServer(MinecraftClient.java:1972) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.createWorld(MinecraftClient.java:1941) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.createLevel(CreateWorldScreen.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.CreateWorldScreen.method_19922(CreateWorldScreen.java:230) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ButtonWidget.onPress(ButtonWidget.java:40) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.PressableWidget.onClick(PressableWidget.java:16) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.ClickableWidget.mouseClicked(ClickableWidget.java:121) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:27) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:492) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:94) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:103) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:165) ~[minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.1.jar:?]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.1.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3050) [lwjgl-glfw-3.2.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:310) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1147) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:737) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:236) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[10:27:42] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[10:27:43] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
+[10:27:47] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:27:48] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 4.950 ms
+[10:27:48] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
+[10:27:48] [Server thread/INFO] (Minecraft) Generating keypair
+[10:27:52] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[10:27:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:27:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:27:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:27:59] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:28:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:28:00] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:28:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:28:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:07] [Render thread/INFO] (Minecraft) Preparing spawn area: 11%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 58%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 58%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:10] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[10:28:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
+[10:28:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
+[10:28:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
+[10:28:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
+[10:28:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 84%
+[10:28:14] [Render thread/INFO] (Minecraft) Time elapsed: 21976 ms
+[10:28:14] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[10:28:14] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[10:28:15] [Server thread/INFO] (Minecraft) Player567[local:E:833a051b] logged in with entity id 20 at (-9.5, -60.0, -7.5)
+[10:28:15] [Server thread/INFO] (Minecraft) Player567 joined the game
+[10:28:16] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[10:28:24] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[10:29:02] [Server thread/INFO] (Minecraft) [Player567: Removed 3 items from player Player567]
+[10:29:02] [Render thread/INFO] (Minecraft) [CHAT] Removed 3 items from player Player567
+[10:29:04] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Survival Mode]
+[10:29:04] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[10:29:06] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[10:29:09] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:29:09] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:29:09] [Render thread/INFO] (Minecraft) Loaded 21 advancements
+[10:29:23] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:29:23] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:29:24] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2680ms or 53 ticks behind
+[10:29:48] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Creative Mode]
+[10:29:48] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
+[10:30:15] [Server thread/INFO] (Minecraft) [Player567: Removed 64 items from player Player567]
+[10:30:15] [Render thread/INFO] (Minecraft) [CHAT] Removed 64 items from player Player567
+[10:30:53] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:30:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:30:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:30:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:31:02] [Render thread/INFO] (Minecraft) Loaded 23 advancements
+[10:31:15] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:31:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:31:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:31:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:31:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:31:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:31:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:31:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:32:15] [Server thread/INFO] (Minecraft) [Player567: Gamerule keepInventory is now set to: true]
+[10:32:15] [Render thread/INFO] (Minecraft) [CHAT] Gamerule keepInventory is now set to: true
+[10:32:19] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Survival Mode]
+[10:32:19] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[10:32:20] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:32:20] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:32:29] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:32:29] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:32:35] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:32:35] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:32:39] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Creative Mode]
+[10:32:39] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
+[10:33:30] [Render thread/INFO] (Minecraft) Loaded 38 advancements
+[10:33:38] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:33:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:33:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:33:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:33:44] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Survival Mode]
+[10:33:44] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[10:34:42] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Creative Mode]
+[10:34:42] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
+[10:34:58] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Survival Mode]
+[10:34:58] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[10:35:40] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:35:40] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:35:46] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:35:46] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:35:53] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:35:53] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:35:58] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:35:58] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:36:12] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Creative Mode]
+[10:36:12] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Creative Mode
+[10:37:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:37:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:37:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:37:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:37:06] [Server thread/INFO] (Minecraft) [Player567: Set the weather to rain]
+[10:37:06] [Render thread/INFO] (Minecraft) [CHAT] Set the weather to rain
+[10:37:56] [Render thread/INFO] (Minecraft) [CHAT] [Debug]: Hitboxes: shown
+[10:38:36] [Server thread/INFO] (Minecraft) [Player567: Set own game mode to Survival Mode]
+[10:38:36] [Render thread/INFO] (Minecraft) [CHAT] Set own game mode to Survival Mode
+[10:38:37] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:38:37] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:38:46] [Server thread/INFO] (Minecraft) Player567 was slain by Grim
+[10:38:46] [Render thread/INFO] (Minecraft) [CHAT] Player567 was slain by Grim
+[10:39:00] [Server thread/INFO] (Minecraft) Player567 has made the advancement [Monster Hunter]
+[10:39:00] [Render thread/INFO] (Minecraft) [CHAT] Player567 has made the advancement [Monster Hunter]
+[10:39:00] [Render thread/INFO] (Minecraft) Loaded 41 advancements
+[10:39:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[10:39:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:39:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:39:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:39:12] [Server thread/INFO] (Minecraft) Player567 lost connection: Disconnected
+[10:39:12] [Server thread/INFO] (Minecraft) Player567 left the game
+[10:39:12] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[10:39:12] [Server thread/INFO] (Minecraft) Stopping server
+[10:39:12] [Server thread/INFO] (Minecraft) Saving players
+[10:39:12] [Server thread/INFO] (Minecraft) Saving worlds
+[10:39:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10:39:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10:39:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10:39:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[10:39:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:39:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:39:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[10:39:16] [Render thread/INFO] (tutorialmod) This line is printed by an example mod mixin!
+[10:39:20] [Render thread/INFO] (Minecraft) Deleting level New World
+[10:39:20] [Render thread/INFO] (Minecraft) Attempt 1...
+[10:39:23] [Render thread/INFO] (tutorialmod) This line is printed by an example mod mixin!
+[10:39:24] [Render thread/INFO] (Minecraft) Stopping!
