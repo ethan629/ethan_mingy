@@ -1,0 +1,12 @@
+{
+  "type": "tutorialmod:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:topaz",
+    "count": 9
+  }
+}

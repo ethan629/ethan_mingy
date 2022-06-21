@@ -1,0 +1,12 @@
+{
+  "type": "tutorialmod:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:tourmaline_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:tourmaline",
+    "count": 9
+  }
+}
