@@ -72,23 +72,23 @@ public class ModItems {
 
     // axes
     public static final Item GARNET_AXE = registerItem("garnet_axe",
-            new ModAxeItem(ModToolMaterials.GARNET, 4f, 0.5f,
+            new ModAxeItem(ModToolMaterials.GARNET, 4f, -1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
     public static final Item RAINBOW_OPAL_AXE = registerItem("rainbow_opal_axe",
-            new ModAxeItem(ModToolMaterials.RAINBOW_OPAL, 4f, 0.5f,
+            new ModAxeItem(ModToolMaterials.RAINBOW_OPAL, 4f, -1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
     public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
-            new ModAxeItem(ModToolMaterials.SAPPHIRE, 4f, 0.5f,
+            new ModAxeItem(ModToolMaterials.SAPPHIRE, 4f, -1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
     public static final Item TOPAZ_AXE = registerItem("topaz_axe",
-            new ModAxeItem(ModToolMaterials.TOPAZ, 4f, 0.5f,
+            new ModAxeItem(ModToolMaterials.TOPAZ, 4f, -1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
     public static final Item TOURMALINE_AXE = registerItem("tourmaline_axe",
-            new ModAxeItem(ModToolMaterials.TOURMALINE, 4f, 0.5f,
+            new ModAxeItem(ModToolMaterials.TOURMALINE, 4f, -1f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
 
@@ -154,6 +154,28 @@ public class ModItems {
 
     public static final Item TOURMALINE_HOE = registerItem("tourmaline_hoe",
             new ShovelItem(ModToolMaterials.TOURMALINE, 0.5f, 1f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+    
+    
+    // battle-axes
+    public static final Item GARNET_BATTLE_AXE = registerItem("garnet_battle_axe",
+            new ModAxeItem(ModToolMaterials.GARNET, 10f, -3f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item RAINBOW_OPAL_BATTLE_AXE = registerItem("rainbow_opal_battle_axe",
+            new ModAxeItem(ModToolMaterials.RAINBOW_OPAL, 10f, -3f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item SAPPHIRE_BATTLE_AXE = registerItem("sapphire_battle_axe",
+            new ModAxeItem(ModToolMaterials.SAPPHIRE, 10f, -3f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOPAZ_BATTLE_AXE = registerItem("topaz_battle_axe",
+            new ModAxeItem(ModToolMaterials.TOPAZ, 10f, -3f,
+                    new FabricItemSettings().group(ModItemGroup.MOD)));
+
+    public static final Item TOURMALINE_BATTLE_AXE = registerItem("tourmaline_battle_axe",
+            new ModAxeItem(ModToolMaterials.TOURMALINE, 10f, -3f,
                     new FabricItemSettings().group(ModItemGroup.MOD)));
 
     // helmets
