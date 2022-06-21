@@ -79,6 +79,8 @@
 
   "item.tutorialmod.criminal_music_disc": "Criminal Music Disc",
   "item.tutorialmod.criminal_music_disc.desc": "Mama I'm a Criminal",
+  "item.tutorialmod.garnet_protector_spawn_egg": "Garnet Protector Spawn Egg",
+  "entity.tutorialmod.garnet_protector": "Garnet Protector",
 
   "enchantment.tutorialmod.lightning": "Lightning",
   "enchantment.tutorialmod.experience": "Experience",
