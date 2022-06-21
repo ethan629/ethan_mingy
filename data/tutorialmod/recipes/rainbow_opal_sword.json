@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:rainbow_opal"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:rainbow_opal_sword"
+  }
+}

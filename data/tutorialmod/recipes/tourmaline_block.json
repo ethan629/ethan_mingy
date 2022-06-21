@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:tourmaline"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:tourmaline_block"
+  }
+}

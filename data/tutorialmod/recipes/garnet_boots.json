@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:garnet"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:garnet_boots"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialmod",
+  "version": "${version}",
+
+  "name": "Tutorial Mod",
+  "description": "Dumb mod for experimenting",
+  "authors": [
+    "Ethan and Mingy!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ethan.tutorialmod.TutorialMod"
+    ],
+    "client": [
+      "net.ethan.tutorialmod.TutorialClientMod"
+    ]
+  },
+  "mixins": [
+    "tutorialmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tutorialmod:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:rainbow_opal_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:rainbow_opal",
+    "count": 9
+  }
+}
