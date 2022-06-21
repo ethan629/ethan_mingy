@@ -1,0 +1,10 @@
+{
+  "criminal": {
+    "sounds": [
+      {
+        "name": "tutorialmod:criminal",
+        "stream": true
+      }
+    ]
+  }
+}
